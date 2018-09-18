@@ -8,7 +8,7 @@ This is a dependency free redux store enhancer that adds ability to add addition
 
 ```js
 import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
-import { asyncStoreCreator } from 'async-redux-store-enhancer`
+import { asyncStoreCreator } from 'async-redux-store-enhancer'
 
 // instead of passing a reducer to createStore, we pass a reducer factory
 // where the only difference from normal reducer is that it takes an argument of new reducers and spreads it.
@@ -37,7 +37,7 @@ const store = asyncStoreCreator(createStore, applyMiddleware, compose, { prepend
 
 ```js
 import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
-import { asyncStoreCreator } from 'async-redux-store-enhan,cer`
+import { asyncStoreCreator } from 'async-redux-store-enhancer'
 
 // as per redux dev tools documentation
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
