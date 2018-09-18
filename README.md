@@ -4,6 +4,8 @@ This is a dependency free redux store enhancer that adds ability to add addition
 
 ## Usage examples
 
+`npm i async-redux-store-enhancer`
+
 ### Injecting a reducer and middleware
 
 ```js
