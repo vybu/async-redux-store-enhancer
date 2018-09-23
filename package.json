@@ -1,19 +1,14 @@
 {
   "name": "async-redux-store-enhancer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Enhancer for redux store, that adds ability to inject reducers and middlewares after store has been created.",
   "main": "lib/index.js",
-  "files": [
-    "lib",
-    "src"
-  ],
+  "files": [ "lib", "src" ],
   "scripts": {
     "test": "jest",
     "build": "rollup -c rollup.config.js"
   },
-  "keywords": [
-    "redux"
-  ],
+  "keywords": [ "redux" ],
   "repository": {
     "type": "git",
     "url": "https://github.com/vybu/async-redux-store-enhancer"
@@ -32,5 +27,8 @@
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-uglify": "^6.0.0"
+  },
+  "peerDependency": {
+    "redux": "*"
   }
 }
